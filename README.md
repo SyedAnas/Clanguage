@@ -1,2 +1,2 @@
 # Clanguage
-simple C language Progeams
+simple C language Programs
