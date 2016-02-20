@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+	//clrscr();
+    int x;
+    printf("Enter a Character & get ASCII Code=");
+    scanf("%c",&x);
+    printf("%c=%d",x,x);
+    for(int a=0; a<=30; a++)
+    {
+	printf("\n%c=%d",x,++x);
+    }
+	getch();
+}

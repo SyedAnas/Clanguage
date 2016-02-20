@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+	//clrscr();
+    int ch=getche();
+    printf("=%d",ch);
+    for(int a=0; a<=10; a++)
+	{
+	printf("\n%c=%d",++ch,ch);
+    }
+	getch();
+}
